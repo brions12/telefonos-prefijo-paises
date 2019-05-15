@@ -17,7 +17,7 @@ CREATE TABLE IF NOT EXISTS `pais` (
 -- Volcado de datos a la tabla país
 --
 
-INSERT INTO `country` (`id`, `iso`, `name`, `nicename`, `iso3`, `numcode`, `phonecode`) VALUES
+INSERT INTO `country` (`id`, `iso`, `nombre-mayus`, `nombre`, `iso3`, `numero`, `prefijo`) VALUES
 (1, 'AF', 'AFGANISTÁN', 'Afganistán', 'AFG', 4, 93),
 (2, 'AL', 'ALBANIA', 'Albania', 'ALB', 8, 355),
 (3, 'DZ', 'ARGELIA', 'Argelia', 'DZA', 12, 213),
