@@ -1,3 +1,7 @@
+--
+-- Agradecimientos a Adhip Gupta. Este archivo es solo una actualización de su trabajo.
+--
+
 CREATE TABLE IF NOT EXISTS `pais` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `iso` char(2) NOT NULL,
