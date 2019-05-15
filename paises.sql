@@ -1,16 +1,16 @@
-CREATE TABLE IF NOT EXISTS `country` (
+CREATE TABLE IF NOT EXISTS `pais` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `iso` char(2) NOT NULL,
-  `name` varchar(80) NOT NULL,
-  `nicename` varchar(80) NOT NULL,
+  `nombre-mayus` varchar(80) NOT NULL,
+  `nombre` varchar(80) NOT NULL,
   `iso3` char(3) DEFAULT NULL,
-  `numcode` smallint(6) DEFAULT NULL,
-  `phonecode` int(5) NOT NULL,
+  `numero` smallint(6) DEFAULT NULL,
+  `prefijo` int(5) NOT NULL,
   PRIMARY KEY (`id`)
 ) ENGINE=MyISAM  DEFAULT CHARSET=latin1;
 
 --
--- Dumping data for table `country`
+-- Volcado de datos a la tabla país
 --
 
 INSERT INTO `country` (`id`, `iso`, `name`, `nicename`, `iso3`, `numcode`, `phonecode`) VALUES
