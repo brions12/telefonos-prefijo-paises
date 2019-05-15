@@ -2,7 +2,7 @@
 -- Agradecimientos a Adhip Gupta. Este archivo es solo una actualización de su trabajo.
 --
 
-CREATE TABLE IF NOT EXISTS `pais` (
+CREATE TABLE IF NOT EXISTS `prefijos-paises` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `iso` char(2) NOT NULL,
   `nombre-mayus` varchar(80) NOT NULL,
@@ -14,10 +14,10 @@ CREATE TABLE IF NOT EXISTS `pais` (
 ) ENGINE=MyISAM  DEFAULT CHARSET=latin1;
 
 --
--- Volcado de datos a la tabla país
+-- Volcado de datos a la tabla prefijos-paises
 --
 
-INSERT INTO `country` (`id`, `iso`, `nombre-mayus`, `nombre`, `iso3`, `numero`, `prefijo`) VALUES
+INSERT INTO `prefijos-paises` (`id`, `iso`, `nombre-mayus`, `nombre`, `iso3`, `numero`, `prefijo`) VALUES
 (1, 'AF', 'AFGANISTÁN', 'Afganistán', 'AFG', 4, 93),
 (2, 'AL', 'ALBANIA', 'Albania', 'ALB', 8, 355),
 (3, 'DZ', 'ARGELIA', 'Argelia', 'DZA', 12, 213),
